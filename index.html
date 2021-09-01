@@ -17,9 +17,11 @@
 <body>
   <header>
     <div class="flex">
-      <div class="header-left">
-        <i class="uil uil-moon bouton-blackMode"></i>
-      </div>
+      <img
+        class="photos-profil"
+        src="../Pictures/profild.jpg"
+        alt=""
+      />
       <div class="header-right">
         <h1>EYMERIC COLUSSI</h1>
         <h2>Photographe - <a class="header-h2__instagram" target="blank"
@@ -33,27 +35,36 @@
       <div class="galery-content__ligne">
 
         <div class="flex img-margin_top">
-          <img class="img1 img-double img" src="./Pictures/IMG_3281.JPG" alt="Sortie de bowl de Mael" />
+          <img onClick="window.location.href='./html/img1.html'" class="img1 img-double img" src="./Pictures/IMG_3281.JPG" alt="Sortie de bowl de Mael" />
           <span class="gap"></span>
-          <img class="img2 img-double img" src="./Pictures/IMG_2986.JPG" alt="Front tail de Charlie sur un curb" />
+          <img onClick="window.location.href='./html/img2.html'" class="img2 img-double img" src="./Pictures/IMG_2986.JPG" alt="Front tail de Charlie sur un curb" />
         </div>
         
         <div class="flex img-margin_top">
-          <img class="img3 img-grandFormat img" src="./Pictures/IMG_2940.JPG" alt="Fifty de Charlie le quarter" />
+          <img onClick="window.location.href='./html/img3.html'" class="img3 img-grandFormat img" src="./Pictures/IMG_2940.JPG" alt="Fifty de Charlie le quarter" />
         </div>
         
         <div class="flex img-margin_top">
-          <img class="img4 img-haute img" src="./Pictures/IMG_3389.JPG" alt="Crooked de Sevan" />
+          <img onClick="window.location.href='./html/img4.html'" class="img4 img-haute img" src="./Pictures/IMG_3389.JPG" alt="Crooked de Sevan" />
           <span class="gap"></span>
-          <img class="img5 img-haute img" src="./Pictures/IMG_3373(2).JPG" alt="Charlie en sortie de courbe" />
+          <img onClick="window.location.href='./html/img5.html'" class="img5 img-haute img" src="./Pictures/IMG_3373(2).JPG" alt="Charlie en sortie de courbe" />
         </div>
 
         <div class="flex img-margin_top">
-          <img class="img5 img-grandFormat img" src="./Pictures/IMG_2911 (2).JPG" alt="Tour de pool de Zayon" />
+          <img onClick="window.location.href='./html/img6.html'" class="img5 img-grandFormat img" src="./Pictures/IMG_2911 (2).JPG" alt="Tour de pool de Zayon" />
         </div>
       </div>
   </section>
 
+  <footer>
+    <div class="footer-content">
+      <br>
+      <div>Mael : <span class="footer-lien" target="blanck" onClick="window.location.href='https://www.instagram.com/mael_brtl/'">mael_brtl</span></div>
+      <div>Sevan : <span class="footer-lien" target="blanck" onClick="window.location.href='https://www.instagram.com/sevanupied/'">sevanupied</span></div>
+      <div>Charly : <span class="footer-lien" target="blanck" onClick="window.location.href='https://www.instagram.com/ch0b0oo/'">ch0b0oo</span></div>
+      <div style="margin-bottom: 20px;">Zayon : <span class="footer-lien" target="blanck" onClick="window.location.href='https://www.instagram.com/zazouvstheworld/'">zazouvstheworld</span></div>
+    </div>
+  </footer>
 
   <script src="./app.js"></script>
 </body>

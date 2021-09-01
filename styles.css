@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 img {
@@ -33,7 +33,7 @@ a {
 }
 
 .img-margin_top {
-    margin-top: 5%;
+  margin-top: 5%;
 }
 
 .img-double {
@@ -57,11 +57,26 @@ a {
 }
 
 .img {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-
 /*----------------------------- Header ----------------------------*/
+@media screen and (min-width: 650px) {
+    .photos-profil {
+        position: absolute;
+        top: -200000000000000px;
+    }
+    .header-right {
+        text-align: left;
+      }
+}
+
+.photos-profil {
+  border-radius: 300px;
+  text-align: left;
+  width: 20%;
+}
+
 
 header {
   margin-left: 35px;
@@ -83,9 +98,7 @@ header {
   width: 10%;
 }
 
-.header-left {
-  text-align: left;
-}
+
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -106,4 +119,25 @@ h2 {
 }
 .h2__instagram-blackMode {
   color: white;
+}
+
+/*############## FOOTER ##############*/
+
+footer {
+    margin-top: 5px;
+    height: 20vh;
+    background-color: rgba(199, 199, 199, 0.486);
+}
+
+footer div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.footer-content {
+    margin-top: 20px;
+}
+
+.footer-lien {
+    cursor: pointer;
 }
